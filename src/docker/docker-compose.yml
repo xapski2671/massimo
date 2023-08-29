@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: xapski2671
+      POSTGRES_PASSWORD: shalltear2671
+      POSTGRES_DB: massimoDB
+    ports:
+      - 5432:5432
